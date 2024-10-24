@@ -15,4 +15,14 @@
     width: 10%;
     height: auto;
     margin-left: 3px;
+    border-radius: 5%;
+
+}
+
+.mov{
+    background-color: antiquewhite;
+    width: 10%;
+    height: auto;
+    margin-left: 3px;
+    border-radius: 5%;
 }
