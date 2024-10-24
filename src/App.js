@@ -7,12 +7,17 @@ import MA from './Movies/MA';
 import SS from './Movies/SS';
 import CR from './Movies/CR';
 import CCF from './Movies/CCF';
+import SeachBar from './Components/SeachBar';
+import Header from './Components/Header';
+import './Styling/SeachBar.css';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <MovieList/>
-      <IndivitualMovies/>
+      <Footer/>
     </div>
   );
 }

@@ -8,6 +8,7 @@ export default function IndivitualMovies() {
         <a href="">Charlie And The Choclate Factory</a>
         <a href="">Crawl</a>
         <a href="">Marvel Avengers</a>
+        
     </div>
   )
 }
