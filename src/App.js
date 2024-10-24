@@ -11,13 +11,14 @@ import SeachBar from './Components/SeachBar';
 import Header from './Components/Header';
 import './Styling/SeachBar.css';
 import Footer from './Components/Footer';
-
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App2 from '.';
 function App() {
+
   return (
     <div className="App">
-      <Header/>
+      <SeachBar/>
       <MovieList/>
-      <Footer/>
     </div>
   );
 }
