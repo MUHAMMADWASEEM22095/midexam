@@ -17,8 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <SeachBar/>
+      <Header/>
       <MovieList/>
+      <Footer/>
     </div>
   );
 }

@@ -9,8 +9,8 @@ export default function SeachBar() {
     return (
         <div className='NavBar'>
             <nav className='Nav'>
-                <a href=""><li>Movies</li></a>
-                <a href="/IndivitualMovies"><li>Info of Movies</li></a>
+                <a href="" className='mov'>Movies</a>
+                <a href="/IndivitualMovies" className='info'>Info of Movies</a>
             </nav>
         </div>
     );
